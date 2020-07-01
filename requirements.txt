@@ -5,10 +5,10 @@
 
 ## IMPORTANT: Keep aligned with setup.cfg
 
-setuptools
-altgraph
-pefile; sys_platform == 'win32'
-pywin32-ctypes; sys_platform == 'win32'
-macholib; sys_platform == 'darwin'
+setuptools==47.3.1
+altgraph==0.17
+pefile==2019.4.18; sys_platform == 'win32'
+pywin32-ctypes==0.2.0; sys_platform == 'win32'
+macholib==1.14; sys_platform == 'darwin'
 
 ## IMPORTANT: Keep aligned with setup.cfg
